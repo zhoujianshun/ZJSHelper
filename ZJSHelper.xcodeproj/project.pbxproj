@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		079DE7D61D9CBEC700B50FDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079DE7D51D9CBEC700B50FDD /* AppDelegate.swift */; };
+		079DE7D81D9CBEC700B50FDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079DE7D71D9CBEC700B50FDD /* ViewController.swift */; };
+		079DE7DB1D9CBEC700B50FDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 079DE7D91D9CBEC700B50FDD /* Main.storyboard */; };
+		079DE7DD1D9CBEC700B50FDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 079DE7DC1D9CBEC700B50FDD /* Assets.xcassets */; };
+		079DE7E01D9CBEC700B50FDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 079DE7DE1D9CBEC700B50FDD /* LaunchScreen.storyboard */; };
+		079DE7EB1D9CBEC700B50FDD /* ZJSHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079DE7EA1D9CBEC700B50FDD /* ZJSHelperTests.swift */; };
+		079DE7FA1D9CC14300B50FDD /* CarOrganization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079DE7F91D9CC14300B50FDD /* CarOrganization.swift */; };
+		079DE7FC1D9CC32B00B50FDD /* BaseServiceResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079DE7FB1D9CC32B00B50FDD /* BaseServiceResult.swift */; };
+		BDC5EBB5482E6B4C52E26665 /* Pods_ZJSHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D7D5F90EBCA15F7FFCE10D /* Pods_ZJSHelper.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		079DE7E71D9CBEC700B50FDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 079DE7CA1D9CBEC700B50FDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 079DE7D11D9CBEC700B50FDD;
+			remoteInfo = ZJSHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		079DE7D21D9CBEC700B50FDD /* ZJSHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJSHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		079DE7D51D9CBEC700B50FDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		079DE7D71D9CBEC700B50FDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		079DE7DA1D9CBEC700B50FDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		079DE7DC1D9CBEC700B50FDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		079DE7DF1D9CBEC700B50FDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		079DE7E11D9CBEC700B50FDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		079DE7E61D9CBEC700B50FDD /* ZJSHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJSHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		079DE7EA1D9CBEC700B50FDD /* ZJSHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJSHelperTests.swift; sourceTree = "<group>"; };
+		079DE7EC1D9CBEC700B50FDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		079DE7F91D9CC14300B50FDD /* CarOrganization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarOrganization.swift; sourceTree = "<group>"; };
+		079DE7FB1D9CC32B00B50FDD /* BaseServiceResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseServiceResult.swift; sourceTree = "<group>"; };
+		7450C434D1D7413474F35B12 /* Pods-ZJSHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJSHelper.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJSHelper/Pods-ZJSHelper.release.xcconfig"; sourceTree = "<group>"; };
+		D0D7D5F90EBCA15F7FFCE10D /* Pods_ZJSHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJSHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7B62AECF5DF32E35F8643C2 /* Pods-ZJSHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJSHelper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJSHelper/Pods-ZJSHelper.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		079DE7CF1D9CBEC700B50FDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDC5EBB5482E6B4C52E26665 /* Pods_ZJSHelper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		079DE7E31D9CBEC700B50FDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		079DE7C91D9CBEC700B50FDD = {
+			isa = PBXGroup;
+			children = (
+				079DE7D41D9CBEC700B50FDD /* ZJSHelper */,
+				079DE7E91D9CBEC700B50FDD /* ZJSHelperTests */,
+				079DE7D31D9CBEC700B50FDD /* Products */,
+				16CFC1803CC0FBF27CD8D1D2 /* Pods */,
+				4E948B4045ACF609A160FBC4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		079DE7D31D9CBEC700B50FDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				079DE7D21D9CBEC700B50FDD /* ZJSHelper.app */,
+				079DE7E61D9CBEC700B50FDD /* ZJSHelperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		079DE7D41D9CBEC700B50FDD /* ZJSHelper */ = {
+			isa = PBXGroup;
+			children = (
+				079DE7F71D9CBF1100B50FDD /* Models */,
+				079DE7F61D9CBEFC00B50FDD /* Services */,
+				079DE7D51D9CBEC700B50FDD /* AppDelegate.swift */,
+				079DE7D71D9CBEC700B50FDD /* ViewController.swift */,
+				079DE7D91D9CBEC700B50FDD /* Main.storyboard */,
+				079DE7DC1D9CBEC700B50FDD /* Assets.xcassets */,
+				079DE7DE1D9CBEC700B50FDD /* LaunchScreen.storyboard */,
+				079DE7E11D9CBEC700B50FDD /* Info.plist */,
+			);
+			path = ZJSHelper;
+			sourceTree = "<group>";
+		};
+		079DE7E91D9CBEC700B50FDD /* ZJSHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				079DE7EA1D9CBEC700B50FDD /* ZJSHelperTests.swift */,
+				079DE7EC1D9CBEC700B50FDD /* Info.plist */,
+			);
+			path = ZJSHelperTests;
+			sourceTree = "<group>";
+		};
+		079DE7F61D9CBEFC00B50FDD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		079DE7F71D9CBF1100B50FDD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				079DE7F81D9CC10500B50FDD /* CarIllegal */,
+				079DE7FB1D9CC32B00B50FDD /* BaseServiceResult.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		079DE7F81D9CC10500B50FDD /* CarIllegal */ = {
+			isa = PBXGroup;
+			children = (
+				079DE7F91D9CC14300B50FDD /* CarOrganization.swift */,
+			);
+			path = CarIllegal;
+			sourceTree = "<group>";
+		};
+		16CFC1803CC0FBF27CD8D1D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7B62AECF5DF32E35F8643C2 /* Pods-ZJSHelper.debug.xcconfig */,
+				7450C434D1D7413474F35B12 /* Pods-ZJSHelper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4E948B4045ACF609A160FBC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0D7D5F90EBCA15F7FFCE10D /* Pods_ZJSHelper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		079DE7D11D9CBEC700B50FDD /* ZJSHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 079DE7EF1D9CBEC700B50FDD /* Build configuration list for PBXNativeTarget "ZJSHelper" */;
+			buildPhases = (
+				1D1C5B46A2308617AA10CBB7 /* [CP] Check Pods Manifest.lock */,
+				079DE7CE1D9CBEC700B50FDD /* Sources */,
+				079DE7CF1D9CBEC700B50FDD /* Frameworks */,
+				079DE7D01D9CBEC700B50FDD /* Resources */,
+				B76FF716D8CA58C33FA031F7 /* [CP] Embed Pods Frameworks */,
+				7BFD0936FF4C8490125F0189 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZJSHelper;
+			productName = ZJSHelper;
+			productReference = 079DE7D21D9CBEC700B50FDD /* ZJSHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		079DE7E51D9CBEC700B50FDD /* ZJSHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 079DE7F21D9CBEC700B50FDD /* Build configuration list for PBXNativeTarget "ZJSHelperTests" */;
+			buildPhases = (
+				079DE7E21D9CBEC700B50FDD /* Sources */,
+				079DE7E31D9CBEC700B50FDD /* Frameworks */,
+				079DE7E41D9CBEC700B50FDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				079DE7E81D9CBEC700B50FDD /* PBXTargetDependency */,
+			);
+			name = ZJSHelperTests;
+			productName = ZJSHelperTests;
+			productReference = 079DE7E61D9CBEC700B50FDD /* ZJSHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		079DE7CA1D9CBEC700B50FDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = mxrcorp;
+				TargetAttributes = {
+					079DE7D11D9CBEC700B50FDD = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					079DE7E51D9CBEC700B50FDD = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 079DE7D11D9CBEC700B50FDD;
+					};
+				};
+			};
+			buildConfigurationList = 079DE7CD1D9CBEC700B50FDD /* Build configuration list for PBXProject "ZJSHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 079DE7C91D9CBEC700B50FDD;
+			productRefGroup = 079DE7D31D9CBEC700B50FDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				079DE7D11D9CBEC700B50FDD /* ZJSHelper */,
+				079DE7E51D9CBEC700B50FDD /* ZJSHelperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		079DE7D01D9CBEC700B50FDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079DE7E01D9CBEC700B50FDD /* LaunchScreen.storyboard in Resources */,
+				079DE7DD1D9CBEC700B50FDD /* Assets.xcassets in Resources */,
+				079DE7DB1D9CBEC700B50FDD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		079DE7E41D9CBEC700B50FDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D1C5B46A2308617AA10CBB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7BFD0936FF4C8490125F0189 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJSHelper/Pods-ZJSHelper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B76FF716D8CA58C33FA031F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJSHelper/Pods-ZJSHelper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		079DE7CE1D9CBEC700B50FDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079DE7D81D9CBEC700B50FDD /* ViewController.swift in Sources */,
+				079DE7FC1D9CC32B00B50FDD /* BaseServiceResult.swift in Sources */,
+				079DE7D61D9CBEC700B50FDD /* AppDelegate.swift in Sources */,
+				079DE7FA1D9CC14300B50FDD /* CarOrganization.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		079DE7E21D9CBEC700B50FDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079DE7EB1D9CBEC700B50FDD /* ZJSHelperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		079DE7E81D9CBEC700B50FDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 079DE7D11D9CBEC700B50FDD /* ZJSHelper */;
+			targetProxy = 079DE7E71D9CBEC700B50FDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		079DE7D91D9CBEC700B50FDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				079DE7DA1D9CBEC700B50FDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		079DE7DE1D9CBEC700B50FDD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				079DE7DF1D9CBEC700B50FDD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		079DE7ED1D9CBEC700B50FDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		079DE7EE1D9CBEC700B50FDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		079DE7F01D9CBEC700B50FDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7B62AECF5DF32E35F8643C2 /* Pods-ZJSHelper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZJSHelper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZJS.ZJSHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		079DE7F11D9CBEC700B50FDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7450C434D1D7413474F35B12 /* Pods-ZJSHelper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZJSHelper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZJS.ZJSHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		079DE7F31D9CBEC700B50FDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZJSHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZJS.ZJSHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJSHelper.app/ZJSHelper";
+			};
+			name = Debug;
+		};
+		079DE7F41D9CBEC700B50FDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZJSHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZJS.ZJSHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJSHelper.app/ZJSHelper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		079DE7CD1D9CBEC700B50FDD /* Build configuration list for PBXProject "ZJSHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				079DE7ED1D9CBEC700B50FDD /* Debug */,
+				079DE7EE1D9CBEC700B50FDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		079DE7EF1D9CBEC700B50FDD /* Build configuration list for PBXNativeTarget "ZJSHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				079DE7F01D9CBEC700B50FDD /* Debug */,
+				079DE7F11D9CBEC700B50FDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		079DE7F21D9CBEC700B50FDD /* Build configuration list for PBXNativeTarget "ZJSHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				079DE7F31D9CBEC700B50FDD /* Debug */,
+				079DE7F41D9CBEC700B50FDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 079DE7CA1D9CBEC700B50FDD /* Project object */;
+}
